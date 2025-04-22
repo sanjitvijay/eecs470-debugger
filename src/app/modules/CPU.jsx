@@ -14,7 +14,7 @@ import Val from "./Val"
 import Cache from "./Cache"
 import TournamentBP from "./TournamentBP"
 export default function CPU({time, CPU_Data,signals, title="Branch Buster"}){
-    const [view, setView] = useState('lsq')
+    const [view, setView] = useState('inst buff')
     return(
         <div>
             <div className="flex justify-center gap-5 items-center">
