@@ -12,7 +12,7 @@ import Map from './modules/Map';
 import CPU from './modules/CPU';
 
 export default function Home() {
-  const debugTime = 52810
+  const debugTime = 0
 
   function calculateProgramTime(){
     return Math.floor(debugTime / 12.5) * 12.5
